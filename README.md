@@ -3,7 +3,7 @@
 ####WTF ?
 1. Script to randomly change the hexa of a image to break it
 2. basicily it's equal to that pseudo-code --> img_hex[random] = random(00,FF)
-3. Press <Enter> to change something 
+3. Press Enter to change something 
 4. Press "r" to reset the image
 
 ####usage :
@@ -20,5 +20,5 @@
 # Example 
 ###Before :
 ![](http://i.imgur.com/gIsAVxU.jpg)
-###After breaking the <Enter> key :
+###After breaking the Enter key :
 ![](http://i.imgur.com/rlpBanx.jpg)
