@@ -11,11 +11,13 @@
 
 ```ENTER ENTER ENTER ENTER ENTER ENTER r ENTER ENTER etc...```
 
+####Some points about it :
 * only tested with jpeg
 * it's dumb , doens't check if the offset is right , nor if will make the img crash .
 * if crash , the code just reset it all
 * the code is silly and ugly , but make nice results
 * the "breaking" is different depending on the viewer / encoding ( yeah , it sucks )
+* was done in 2 hours , so , please
 
 # Example 
 ###Before :
