@@ -19,6 +19,6 @@
 
 # Example 
 ###Before :
-![](http://imgur.com/o01vPYM.jpg)
+![](http://i.imgur.com/gIsAVxU.jpg)
 ###After breaking the <Enter> key :
-![](http://imgur.com/1TTmXUd.jpg)
+![](http://i.imgur.com/rlpBanx.jpg)
