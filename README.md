@@ -7,8 +7,9 @@
 4. Press "r" to reset the image
 
 ####usage :
-```$ python br34k_1mg.py filename.jpg output.jpg
-ENTER ENTER ENTER ENTER ENTER ENTER r ENTER ENTER etc...```
+```$ python br34k_1mg.py filename.jpg output.jpg```
+
+```ENTER ENTER ENTER ENTER ENTER ENTER r ENTER ENTER etc...```
 
 * only tested with jpeg
 * it's dumb , doens't check if the offset is right , nor if will make the img crash .
