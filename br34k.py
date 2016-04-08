@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# -*- coding: utf-8 -*- 
+
 import mmap , sys , os , random , Tkinter , time
 from PIL import Image , ImageTk
 
@@ -10,8 +13,8 @@ def clear() :
 
 def key(event) :
 	clear()
-	br34k("temp.jpg",random.randint(0,255))
-	sh0w("temp.jpg")
+	br34k(sys.argv[2],random.randint(0,255))
+	sh0w(sys.argv[2])
 
 
 def reset(event) :
@@ -45,12 +48,12 @@ def sh0w(fn) :
 		reset(1)
 
 def main() :
-	if ( len(sys.argv) < 2 ) :
-		print "Missing name of the file => $ br34k_jpg.py filename.jpg "
+	if ( len(sys.argv) < 3 ) :
+		print "Missing something . $ python br34k_1mg.py filename.jpg output.jpg"
 	else :
-		os.system("cp "+sys.argv[1]+" temp.jpg") # Command injection lols
-		sh0w("temp.jpg")
-		br34k( "temp.jpg", random.randint(0,255) )
+		os.system("cp "+sys.argv[1]+" "+sys.argv[2]) # Command injection lols
+		sh0w(sys.argv[2])
+		br34k( sys.argv[2], random.randint(0,255) )
 	
 
 if __name__ == "__main__" :
